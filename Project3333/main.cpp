@@ -21,10 +21,7 @@ int main()
     SetConsoleOutputCP(1251);
     srand(time(NULL));
 
-    int a = 4;
-    int b = -5;
-
-    int result = Faku(a, b);
+    int result = Faku(4, -5);
 
     std::cout << result << "\n";
 
